@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MoneyManager",
-    "slug": "MoneyManager",
+    "slug": "moneymanager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36aae83d-1bd3-4d20-8624-09f4f806d879"
+      }
+    },
+    "owner": "divyank.lalwani"
   }
 }
